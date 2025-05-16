@@ -1,0 +1,54 @@
+{
+    "orders": [
+      {
+        "tableNo": "01",
+        "specialRequest": "None",
+        "orderedItems": "Spaghetti Carbonara, Caesar Salad",
+        "amount": "700₹",
+        "status": "Pending"
+      },
+      {
+        "tableNo": "02",
+        "specialRequest": "Less cheese",
+        "orderedItems": "Margherita Pizza, Tiramisu",
+        "amount": "675₹",
+        "status": "Completed"
+      },
+      {
+        "tableNo": "03",
+        "specialRequest": "Use Less Oil",
+        "orderedItems": "Grilled Salmon, Ratatouille",
+        "amount": "1050₹",
+        "status": "Pending"
+      },
+      {
+        "tableNo": "04",
+        "specialRequest": "Put extra Chocolate on Cake",
+        "orderedItems": "Lobster Risotto, Chocolate Lava Cake",
+        "amount": "1050₹",
+        "status": "Completed"
+      },
+      {
+        "tableNo": "05",
+        "specialRequest": "None",
+        "orderedItems": "Penne Arrabbiata, Crème Brûlée",
+        "amount": "670₹",
+        "status": "Pending"
+      },
+      {
+        "tableNo": "06",
+        "specialRequest": "No salt on Salad",
+        "orderedItems": "Spaghetti Carbonara, Caesar Salad",
+        "amount": "700₹",
+        "status": "Pending"
+      },
+      {
+        "tableNo": "07",
+        "specialRequest": "None",
+        "orderedItems": "Penne Arrabbiata, Crème Brûlée",
+        "amount": "670₹",
+        "status": "Pending"
+      }
+    ]
+  }
+  

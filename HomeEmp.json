@@ -1,0 +1,73 @@
+{
+    "html": {
+        "doctype": "html",
+        "lang": "en",
+        "head": {
+            "meta": [
+                { "charset": "UTF-8" },
+                { "name": "viewport", "content": "width=device-width, initial-scale=1.0" }
+            ],
+            "title": "Restaurant Management System",
+            "links": [
+                { "rel": "stylesheet", "href": "homeEmp.css" },
+                { "rel": "icon", "href": "Logo.png", "type": "image/x-icon" }
+            ]
+        },
+        "body": {
+            "header": {
+                "img": { "src": "header1.png", "alt": "Sweet Memories", "style": { "width": "1255px", "height": "100px" } },
+                "nav": {
+                    "ul": {
+                        "class": "button-container",
+                        "buttons": [
+                            { "id": "HomeButton", "text": "Home", "link": "homeEmp.html" },
+                            { "id": "ResevationButton", "text": "Reservations", "link": "Reserved.html" },
+                            { "id": "OrdersButton", "text": "Orders", "link": "ordered.html" }
+                        ]
+                    }
+                }
+            },
+            "main": {
+                "sections": [
+                    {
+                        "id": "menu",
+                        "title": "Manage Your Menu",
+                        "description": "Update your menu items easily and keep your customers informed.",
+                        "images": [
+                            { "src": "burger.jpg", "alt": "Burger", "class": "menu-image" },
+                            { "src": "salad.jpg", "alt": "Salad", "class": "menu-image" },
+                            { "src": "grain-pancake.jpg", "alt": "Grain Pancake", "class": "menu-image" }
+                        ]
+                    },
+                    {
+                        "id": "reservations",
+                        "title": "Reservations Management",
+                        "link": { "href": "Reserved.html", "text": "Reservations Management" },
+                        "description": "Track and manage customer reservations seamlessly."
+                    },
+                    {
+                        "id": "orders",
+                        "title": "Order Management",
+                        "link": { "href": "ordered.html", "text": "Order Management" },
+                        "description": "Keep track of all orders and enhance the customer experience."
+                    },
+                    {
+                        "id": "map",
+                        "title": "Our Location",
+                        "iframe": {
+                            "src": "https://www.google.com/maps/embed?...",
+                            "width": "600",
+                            "height": "450",
+                            "style": { "border": "0" },
+                            "allowfullscreen": true,
+                            "loading": "lazy"
+                        }
+                    }
+                ]
+            },
+            "footer": {
+                "text": "&copy; 2024 Restaurant Management System. All rights reserved."
+            }
+        }
+    }
+}

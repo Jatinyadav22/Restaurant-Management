@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reservation - Restaurant Management System</title>
+    <link rel="stylesheet" href="reservation.css">
+    <link rel="icon" href="Logo.png" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <img src="Logo.png" alt="Restaurant Logo" class="logo">
+        <h1>Restaurant Reservation</h1>
+
+        <nav>
+            <ul class="button-container">
+                <button id="HomeButton">Home</button>
+                <button id="MenuButton">Menu</button>
+                <button id="ResevationButton">Reservation</button>
+                <button id="ContactButton">Contact</button>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="reservation-section">
+            <h2><b>Reserve Your Table</b></h2>
+            <form action="#" method="post" id="reservationForm">
+                <!-- Form fields will be dynamically added here -->
+            </form>
+            <div id="thankYouMessage" style="display: none;">
+                <h3>Thank you for your reservation!</h3>
+                <p>Your table has been successfully booked. We'll see you soon!</p>
+            </div>
+        </section>
+    </main>
+
+    <script src="reservation.js"></script>
+    <footer>
+        <p>&copy; 2024 Restaurant Management System. All rights reserved.</p>
+    </footer>
+</body>
+
+</html>
+

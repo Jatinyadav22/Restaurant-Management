@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Place Order - Restaurant Management System</title>
+    <link rel="stylesheet" href="orderplc.css">
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <img src="Logo.png" alt="Restaurant Logo" class="logo">
+            <h1>Place Your Order</h1>
+            <!-- Back Button -->
+            <a href="menu.html" id="back-button">Back to Menu</a>
+        </div>
+    </header>
+
+    <main>
+        <section class="order-section">
+            <h2>Your Cart</h2>
+            <ul id="cart-details">
+                <!-- Cart items will be dynamically populated here -->
+            </ul>
+            <h3>Total: <span id="total-price">0₹</span></h3>
+        </section>
+
+        <section class="order-form-section">
+            <h2>Customer Details</h2>
+            <form id="order-form">
+                <label for="name">Full Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="phone">Phone Number:</label>
+                <input type="tel" id="phone" name="phone" required>
+
+                <label for="address">Delivery Address:</label>
+                <textarea id="address" name="address" rows="4" required></textarea>
+
+                <button type="submit">Confirm Order</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Restaurant Management System. All rights reserved.</p>
+    </footer>
+
+    <script src="orderplc.js"></script>
+</body>
+</html>

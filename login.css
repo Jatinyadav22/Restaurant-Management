@@ -1,0 +1,96 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-image: url('login\ bg.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background-color: #040d0ca6;
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 10 5px 25px rgba(0, 0, 0, 0.3);
+    width: 350px;
+    text-align: center;
+}
+
+.logo-container {
+    margin-bottom: 20px;
+}
+
+.logo {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+
+h2 {
+    color: #ff6347;
+    margin-bottom: 20px;
+}
+
+p {
+    color: #e2e2e2;
+    margin-bottom: 30px;
+}
+
+.button-container {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+button {
+    width: 45%;
+    padding: 12px;
+    background-color: #ff6347;
+    color: rgb(0, 0, 0);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #ff4500;
+}
+
+form {
+    display: none;
+    margin-top: 20px;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 90%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+input[type="text"]:focus,
+input[type="password"]:focus {
+    border-color: #ff6347;
+    outline: none;
+}
+
+.submit-btn {
+    width: 100%;
+    padding: 12px;
+    background-color: #ff6347;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.submit-btn:hover {
+    background-color: #ff4500;
+}

@@ -1,0 +1,59 @@
+{
+  "navigation": [
+    {
+      "buttonId": "HomeButton",
+      "action": "homeCus.html"
+    },
+    {
+      "buttonId": "MenuButton",
+      "action": "menu.html"
+    },
+    {
+      "buttonId": "ReservationButton",
+      "action": "reservation.html"
+    },
+    {
+      "buttonId": "ContactButton",
+      "action": "contact.html"
+    }
+  ],
+  "formFields": {
+    "tableNumber": {
+      "type": "Number",
+      "label": "Table Number",
+      "required": true
+    },
+    "name": {
+      "type": "text",
+      "label": "Name",
+      "required": true
+    },
+    "email": {
+      "type": "email",
+      "label": "Email",
+      "required": true
+    },
+    "date": {
+      "type": "date",
+      "label": "Date",
+      "required": true
+    },
+    "time": {
+      "type": "time",
+      "label": "Time",
+      "required": true
+    },
+    "guests": {
+      "type": "number",
+      "label": "Number of Guests",
+      "required": true,
+      "min": 1
+    },
+    "requests": {
+      "type": "textarea",
+      "label": "Special Requests",
+      "rows": 4,
+      "required": false
+    }
+  }
+}

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reserved Seats - Restaurant Management System</title>
+    <link rel="stylesheet" href="Reserved.css">
+    <link rel="icon" href="Logo.png" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <img src="Logo.png" alt="Restaurant Logo" class="logo">
+        <h1>Reserved Seats</h1>
+        <nav>
+            <ul class="button-container">
+                <button id="HomeButton">Home</button>
+                <button id="ReservedButton">Reservations</button>
+                <button id="OrdersButton">Orders</button>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="reserved-list">
+            <h1><b>Reserved Seats</b></h1>
+            <div class="reserved-table">
+                <!-- Table headers -->
+                <div class="reserved-header">
+                    <span>Table Number</span>
+                    <span>Name</span>
+                    <span>Date</span>
+                    <span>Time</span>
+                    <span>No. of Guests</span>
+                    <span>Status</span>
+                </div>
+                <!-- Dynamic content will be loaded here -->
+                <div id="reservationData"></div>
+            </div>
+        </section>
+    </main>
+
+    <script src="Reserved.js"></script>
+    <footer>
+        <p>&copy; 2024 Restaurant Management System. All rights reserved.</p>
+    </footer>
+</body>
+</html>

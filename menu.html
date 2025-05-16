@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu - Restaurant Management System</title>
+    <link rel="stylesheet" href="menu.css">
+    <link rel="icon" href="Logo.png" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <img src="Logo.png" alt="Restaurant Logo" class="logo">
+        <h1>Menu</h1>
+        <nav>
+            <ul class="button-container">
+                <button id="HomeButton">Home</button>
+                <button id="MenuButton">Menu</button>
+                <button id="ResevationButton">Reservation</button>
+                <button id="ContactButton">Contact</button>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="menu-items">
+            <h2>Our Exquisite Menu</h2>
+            <div class="menu-grid" id="menuGrid">
+                <!-- Menu items will be dynamically populated here -->
+            </div>
+        </section>
+
+        <!-- Cart Summary -->
+        <aside id="cart-summary" class="cart-container" style="display: none;">
+            <h3>Cart Summary</h3>
+            <ul id="cart-items"></ul>
+            <button id="place-order" style="display: none;">Place Order</button>
+            <button id="reset-cart" style="display: none;">Reset Cart</button>
+        </aside>
+    </main>
+    
+
+    <script src="menu.js"></script>
+    <footer>
+        <p>&copy; 2024 Restaurant Management System. All rights reserved.</p>
+    </footer>
+</body>
+</html>

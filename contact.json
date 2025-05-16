@@ -1,0 +1,42 @@
+{
+  "html": {
+    "title": "Contact Us - Restaurant Management System",
+    "head": {
+      "cssFile": "contact.css",
+      "icon": "Logo.png"
+    },
+    "body": {
+      "header": {
+        "logo": "Logo.png",
+        "buttons": ["Home", "Menu", "Reservation", "Contact"]
+      },
+      "main": {
+        "form": {
+          "fields": [
+            { "label": "Name", "type": "text", "id": "name", "required": true },
+            {
+              "label": "Mobile NO",
+              "type": "text",
+              "id": "number",
+              "maxlength": 10,
+              "pattern": "\\d{10}",
+              "required": true
+            },
+            { "label": "Email", "type": "email", "id": "email", "required": true },
+            {
+              "label": "Message",
+              "type": "textarea",
+              "id": "message",
+              "rows": 5,
+              "required": true
+            }
+          ],
+          "submit": "Submit"
+        }
+      },
+      "footer": "© 2024 Restaurant Management System. All rights reserved."
+    }
+  },
+  "css": ["contact.css"],
+  "js": ["contact.js"]
+}

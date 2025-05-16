@@ -1,0 +1,60 @@
+{
+  "htmlStructure": {
+    "title": "Login - Restaurant System",
+    "elements": {
+      "logo": {
+        "src": "Logo.png",
+        "alt": "Restaurant Logo"
+      },
+      "welcomeMessage": "Welcome to Our Restaurant System",
+      "instruction": "Please select your role to continue",
+      "buttons": {
+        "customerButton": {
+          "id": "customerButton",
+          "text": "Customer",
+          "redirectUrl": "homeCus.html"
+        },
+        "employeeButton": {
+          "id": "employeeButton",
+          "text": "Employee"
+        }
+      },
+      "loginForm": {
+        "id": "loginForm",
+        "fields": [
+          {
+            "id": "username",
+            "label": "Username",
+            "inputType": "text",
+            "name": "username",
+            "required": true
+          },
+          {
+            "id": "password",
+            "label": "Password",
+            "inputType": "password",
+            "name": "password",
+            "required": true
+          }
+        ]
+      }
+    }
+  },
+  "javascriptLogic": {
+    "eventListeners": {
+      "customerButton": {
+        "event": "click",
+        "redirectUrl": "homeCus.html"
+      },
+      "employeeButton": {
+        "event": "click",
+        "handler": "showLoginForm"
+      },
+      "loginForm": {
+        "event": "submit",
+        "handler": "loginHandler",
+        "redirectUrl": "homeEmp.html"
+      }
+    }
+  }
+}

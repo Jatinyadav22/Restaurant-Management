@@ -1,0 +1,84 @@
+{
+  "reservations": [
+      {
+          "tableNo": "01",
+          "reservedBy": "John Doe",
+          "date": "2024-12-01",
+          "time": "7:00 PM",
+          "guests": "4",
+          "status": "Completed"
+      },
+      {
+          "tableNo": "02",
+          "reservedBy": "Jane Smith",
+          "date": "2024-12-02",
+          "time": "8:00 PM",
+          "guests": "2",
+          "status": "Pending"
+      },
+      {
+          "tableNo": "03",
+          "reservedBy": "Alice Johnson",
+          "date": "2024-12-01",
+          "time": "6:00 PM",
+          "guests": "3",
+          "status": "Completed"
+      },
+      {
+          "tableNo": "04",
+          "reservedBy": "Bob Brown",
+          "date": "2024-12-03",
+          "time": "7:30 PM",
+          "guests": "5",
+          "status": "Pending"
+      },
+      {
+          "tableNo": "05",
+          "reservedBy": "Emily White",
+          "date": "2024-12-04",
+          "time": "9:00 PM",
+          "guests": "6",
+          "status": "Completed"
+      },
+      {
+          "tableNo": "06",
+          "reservedBy": "Michael Green",
+          "date": "2024-12-05",
+          "time": "7:15 PM",
+          "guests": "2",
+          "status": "Pending"
+      },
+      {
+          "tableNo": "07",
+          "reservedBy": "Sarah Lee",
+          "date": "2024-12-06",
+          "time": "8:30 PM",
+          "guests": "3",
+          "status": "Completed"
+      },
+      {
+          "tableNo": "08",
+          "reservedBy": "Chris Black",
+          "date": "2024-12-07",
+          "time": "7:45 PM",
+          "guests": "4",
+          "status": "Pending"
+      },
+      {
+          "tableNo": "09",
+          "reservedBy": "Anna Wilson",
+          "date": "2024-12-08",
+          "time": "8:00 PM",
+          "guests": "5",
+          "status": "Completed"
+      },
+      {
+          "tableNo": "10",
+          "reservedBy": "James Brown",
+          "date": "2024-12-09",
+          "time": "9:15 PM",
+          "guests": "6",
+          "status": "Pending"
+      }
+  ]
+}

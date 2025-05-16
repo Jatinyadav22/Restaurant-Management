@@ -1,0 +1,76 @@
+{
+  "menu": [
+      {
+          "name": "Spaghetti Carbonara",
+          "description": "A classic Italian pasta dish made with eggs, cheese, pancetta, and pepper.",
+          "price": "500₹",
+          "image": "Spaghetti.png"
+      },
+      {
+          "name": "Margherita Pizza",
+          "description": "Fresh tomato sauce, mozzarella cheese, and basil make this a classic favorite.",
+          "price": "445₹",
+          "image": "Pizza.png"
+      },
+      {
+          "name": "Caesar Salad",
+          "description": "Crisp romaine lettuce, croutons, and Parmesan cheese with Caesar dressing.",
+          "price": "200₹",
+          "image": "caesar-salad.png"
+      },
+      {
+          "name": "Grilled Salmon",
+          "description": "Fresh salmon fillet grilled to perfection, served with lemon butter sauce.",
+          "price": "700₹",
+          "image": "grilled-salmon.png"
+      },
+      {
+          "name": "Chocolate Lava Cake",
+          "description": "Rich chocolate cake with a gooey molten center, served with vanilla ice cream.",
+          "price": "250₹",
+          "image": "lava-cake.png"
+      },
+      {
+          "name": "Waffles",
+          "description": "Tasty breakfast treat! Originating from Belgium, it's a type of batter-based food cooked in a waffle iron.",
+          "price": "330₹",
+          "image": "Waffle.png"
+      },
+      {
+          "name": "Lobster Risotto",
+          "description": "Creamy risotto cooked with fresh lobster and garnished with herbs.",
+          "price": "800₹",
+          "image": "Lobster.png"
+      },
+      {
+          "name": "Penne Arrabbiata",
+          "description": "Penne pasta in a spicy tomato sauce with garlic and chili.",
+          "price": "450₹",
+          "image": "Arrabbiata.png"
+      },
+      {
+          "name": "Tiramisu",
+          "description": "Classic Italian dessert with layers of coffee-soaked ladyfingers and mascarpone cheese.",
+          "price": "225₹",
+          "image": "tiramisu.png"
+      },
+      {
+          "name": "Caprese Salad",
+          "description": "Fresh mozzarella, tomatoes, and basil drizzled with balsamic glaze.",
+          "price": "250₹",
+          "image": "caprese-salad.png"
+      },
+      {
+          "name": "Ratatouille",
+          "description": "A colorful medley of vegetables simmered to perfection.",
+          "price": "350₹",
+          "image": "Ratatouille.png"
+      },
+      {
+          "name": "Crème Brûlée",
+          "description": "A rich custard base topped with a contrasting layer of hard caramel.",
+          "price": "220₹",
+          "image": "Creme-Brule.png"
+      }
+  ]
+}

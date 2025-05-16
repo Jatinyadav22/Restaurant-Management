@@ -1,0 +1,125 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7;
+    margin: 0;
+    padding: 0;
+    background-image: url('order.jpg');
+}
+header {
+    background-color: #010101d2;
+    color: white;
+    padding: 1em;
+    display: flex;
+    align-items: center;
+}
+.logo {
+    width: 70px;
+    height: 50px;
+    margin-right: 15px;
+}
+
+h1 {
+    margin: 0; 
+}
+
+nav {
+    margin-left: auto; 
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+h1{
+    text-align: center;
+}
+
+.orders-table {
+    display: flex;
+    flex-direction: column;
+    margin: 20px auto;
+    width: 90%;
+    max-width: 900px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: #fff;
+}
+
+.order-header {
+    display: flex;
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    font-weight: bold;
+}
+
+.order-header span {
+    flex: 1;
+    text-align: center;
+}
+
+.order-item {
+    display: flex;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+    transition: background-color 0.2s;
+}
+
+.order-item:hover {
+    background-color: #f9f9f9;
+}
+
+.order-item span {
+    flex: 1;
+    text-align: center;
+}
+
+.status {
+    font-weight: bold;
+}
+
+.status.pending {
+    color: #e74c3c; 
+}
+
+.status.completed {
+    color: #2ecc71; 
+}
+footer {
+    text-align: center;
+    padding: 15px 0;
+    background-color: #343a40;
+    color: white;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+.button-container {
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 20px;
+}
+
+button {
+    width: 48%;
+    padding: 9px;
+    background-color: #d9534f;
+    color: white;
+    border: none;
+    border-radius: 9px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-right: 10px;
+}
+
+button:last-child {
+    margin-right: 0;
+}
